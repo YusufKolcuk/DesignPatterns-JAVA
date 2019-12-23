@@ -3,7 +3,7 @@ package Prototype2;
 public class Client {
     public static void main(String[] args) {
         ColorStore.getColor("blue").addColor();
-        ColorStore.getColor("blue").addColor();
+        ColorStore.getColor("red").addColor();
         ColorStore.getColor("blue").addColor();
         ColorStore.getColor("blue").addColor();
 

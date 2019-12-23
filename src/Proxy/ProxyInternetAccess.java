@@ -1,9 +1,10 @@
 package Proxy;
 
-public class ProxyInternetAccess implements
-        OfficeInternetAccess {
+public class ProxyInternetAccess implements OfficeInternetAccess {
     private String employeeName;
+
     private RealInternetAccess  realaccess;
+
     public ProxyInternetAccess(String employeeName) {
         this.employeeName = employeeName;
     }

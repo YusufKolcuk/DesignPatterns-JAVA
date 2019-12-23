@@ -2,6 +2,7 @@ package Adapter;
 /**
  * Adapter sinifi
  */
+//Duck turkeye dönüştürülüyor
 public class TurkeyAdapter implements Duck {
     Turkey turkey;
 
