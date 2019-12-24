@@ -15,6 +15,6 @@ public class TurkeyAdapter implements Duck {
     }
 
     public void Duckfly() {
-        turkey.Turkeygobble();
+        turkey.Turkeyfly();
     }
 }
